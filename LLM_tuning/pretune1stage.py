@@ -127,9 +127,10 @@ prefix_info = """
 Given the structural description below, identify the best matching structure token for the graph.
 This description outlines the graph structure starting with a center node which has largest degree, illustrating the connections between different nodes.
 """
+data_res_list = []
 for split,data_tmp_list in data.items():
     pbar = tqdm(data_tmp_list, desc="Processing dataset_match")
-    data_res_list = []
+    
     for g in pbar:
         code = g['code']
         desc = g['desc']
