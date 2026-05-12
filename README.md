@@ -1,9 +1,9 @@
 # <SOGₖ> : One LLM Token for Explicit Graph Structural Understanding
-The repository for paper "<SOGₖ> : One LLM Token for Explicit Graph Structural Understanding"
-
-# For reference, use format: $<\text{SOG}_k>$: One {LLM} Token for Explicit Graph Structural Understanding
+The repository for paper "<SOGₖ> : One LLM Token for Explicit Graph Structural Understanding" 
 
 ![image](https://github.com/yaolalal/SOG/blob/main/system_model.png)
+
+#### For reference, use format: $<\text{SOG}_k>$: One {LLM} Token for Explicit Graph Structural Understanding
 
 ## Step 1: Constructing structural tokenizer
 
